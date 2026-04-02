@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investigation Timeline | AIID - Digital Dichotomy</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .timeline-section { background: var(--bg-secondary); min-height: 100vh; padding-top: 8rem; }
+        .timeline-container { max-width: 1000px; margin: 0 auto; padding: 0 2rem; }
+        .timeline { position: relative; padding: 2rem 0; }
+        .timeline::before { content: ''; position: absolute; left: 50%; transform: translateX(-50%); width: 2px; height: 100%; background: linear-gradient(to bottom, var(--accent-red), var(--accent-cyan)); }
+        .timeline-item { position: relative; margin-bottom: 3rem; width: 50%; }
+        .timeline-item:nth-child(odd) { left: 0; padding-right: 3rem; text-align: right; }
+        .timeline-item:nth-child(even) { left: 50%; padding-left: 3rem; }
+        .timeline-item::after { content: ''; position: absolute; width: 20px; height: 20px; background: var(--accent-cyan); border: 4px solid var(--bg-secondary); border-radius: 50%; top: 0; }
+        .timeline-item:nth-child(odd)::after { right: -10px; }
+        .timeline-item:nth-child(even)::after { left: -10px; }
+        .timeline-content { background: var(--bg-tertiary); padding: 1.5rem; border: 1px solid rgba(255,255,255,0.1); }
+        .timeline-date { color: var(--accent-red); font-weight: 700; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem; }
+        .timeline-title { color: var(--text-primary); font-size: 1.2rem; margin-bottom: 0.5rem; }
+        .timeline-desc { color: var(--text-secondary); font-size: 0.9rem; }
+        .timeline-item.highlight .timeline-content { border-color: var(--accent-red); box-shadow: 0 0 20px rgba(255,42,109,0.2); }
+        .timeline-item.highlight::after { background: var(--accent-red); }
+        @media (max-width: 768px) { 
+            .timeline::before { left: 20px; } 
+            .timeline-item { width: 100%; left: 0 !important; padding-left: 3rem !important; padding-right: 0 !important; text-align: left !important; } 
+            .timeline-item::after { left: 10px !important; right: auto !important; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">AIID</a>
+            <ul class="nav-links">
+                <li><a href="index.html#pipeline">The Pipeline</a></li>
+                <li><a href="index.html#evidence">Evidence</a></li>
+                <li><a href="index.html#complaint">Complaint</a></li>
+                <li><a href="index.html#action">Take Action</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="timeline-section">
+        <div class="timeline-container">
+            <div class="section-header">
+                <span class="section-tag">Chronology</span>
+                <h1 class="section-title">Investigation Timeline</h1>
+                <p class="section-desc">Key events in the exposure of AI invention extraction practices.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025</div>
+                        <div class="timeline-title">Perplexity Launches "Patents" Feature</div>
+                        <div class="timeline-desc">Perplexity.ai introduces dedicated patent search and assistance feature, inviting inventors to share innovations.</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">March 2026</div>
+                        <div class="timeline-title">Class-Action Lawsuit Filed</div>
+                        <div class="timeline-desc">San Francisco class-action lawsuit alleges Perplexity secretly shares user chats with Meta and Google without consent.</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item highlight">
+                    <div class="timeline-content">
+                        <div class="timeline-date">April 1, 2026</div>
+                        <div class="timeline-title">Lawsuit Goes Public</div>
+                        <div class="timeline-desc">National media reports on Perplexity privacy lawsuit, confirming third-party data sharing practices.</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item highlight">
+                    <div class="timeline-content">
+                        <div class="timeline-date">April 2, 2026</div>
+                        <div class="timeline-title">AIID Investigation Launched</div>
+                        <div class="timeline-desc">Digital Dichotomy documents Perplexity's institutional self-incrimination—admitting dangers while maintaining "Patents" feature.</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">April 2, 2026</div>
+                        <div class="timeline-title">Formal Complaints Filed</div>
+                        <div class="timeline-desc">Complaints submitted to EFF, FTC, and USPTO regarding deceptive trade practices and patent rights interference.</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Present</div>
+                        <div class="timeline-title">Coalition Building</div>
+                        <div class="timeline-desc">Legal coalition forming, academic research initiated, advocacy campaign ongoing.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="margin-top: 4rem;">
+        <div class="footer-bottom">
+            <p>© 2026 MT Tech Industries / Digital Dichotomy</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossary | AIID - Digital Dichotomy</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .glossary-section { background: var(--bg-secondary); min-height: 100vh; padding-top: 8rem; }
+        .glossary-container { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
+        .glossary-nav { display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center; margin: 2rem 0; padding: 1rem; background: var(--bg-tertiary); }
+        .glossary-nav a { padding: 0.5rem 1rem; color: var(--text-secondary); text-decoration: none; border: 1px solid rgba(255,255,255,0.1); transition: all 0.3s; }
+        .glossary-nav a:hover { background: var(--accent-cyan); color: var(--bg-primary); }
+        .glossary-term { background: var(--bg-tertiary); padding: 2rem; margin-bottom: 1.5rem; border-left: 4px solid var(--accent-cyan); }
+        .glossary-term h3 { color: var(--accent-cyan); margin-bottom: 0.5rem; font-size: 1.3rem; }
+        .glossary-term .category { display: inline-block; padding: 0.2rem 0.6rem; background: rgba(255,42,109,0.2); color: var(--accent-red); font-size: 0.75rem; text-transform: uppercase; margin-bottom: 1rem; }
+        .glossary-term p { color: var(--text-secondary); }
+        .glossary-term .related { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.85rem; color: var(--text-muted); }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">AIID</a>
+            <ul class="nav-links">
+                <li><a href="index.html#pipeline">The Pipeline</a></li>
+                <li><a href="index.html#evidence">Evidence</a></li>
+                <li><a href="index.html#complaint">Complaint</a></li>
+                <li><a href="index.html#action">Take Action</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="glossary-section">
+        <div class="glossary-container">
+            <div class="section-header">
+                <span class="section-tag">Reference</span>
+                <h1 class="section-title">Glossary</h1>
+                <p class="section-desc">Key terms and concepts in AI invention disclosure and intellectual property law.</p>
+            </div>
+
+            <div class="glossary-nav">
+                <a href="#a">A</a><a href="#b">B</a><a href="#c">C</a><a href="#d">D</a>
+                <a href="#e">E</a><a href="#f">F</a><a href="#g">G</a><a href="#h">H</a>
+                <a href="#i">I</a><a href="#p">P</a><a href="#t">T</a><a href="#v">V</a>
+            </div>
+
+            <div class="glossary-term" id="a">
+                <span class="category">Architecture</span>
+                <h3>Architecture of Extraction</h3>
+                <p>The systematic design of AI platforms to harvest intellectual property through seemingly helpful features. The 7-stage pipeline: Lure → Capture → Review → Train → Monetize → Invalidate → Erase.</p>
+                <div class="related">Related: Extraction Pipeline, Data Harvesting</div>
+            </div>
+
+            <div class="glossary-term" id="b">
+                <span class="category">Legal</span>
+                <h3>Bait-and-Switch</h3>
+                <p>A deceptive practice where a platform markets one service (patent assistance) while delivering another (IP extraction). Perplexity's "Patents" feature invites invention sharing while admitting it's "not a good idea" for sensitive IP.</p>
+                <div class="related">Related: Deceptive Trade Practices, FTC Act §5</div>
+            </div>
+
+            <div class="glossary-term" id="c">
+                <span class="category">Legal</span>
+                <h3>CCPA (California Consumer Privacy Act)</h3>
+                <p>California law providing consumers rights to know what personal data is collected and shared. The April 2026 lawsuit against Perplexity alleges CCPA violations through undisclosed data sharing with Meta/Google.</p>
+                <div class="related">Related: Privacy Law, Data Sharing</div>
+            </div>
+
+            <div class="glossary-term">
+                <span class="category">Technical</span>
+                <h3>Chat Retention</h3>
+                <p>The practice of storing user conversations indefinitely. Perplexity admits chats are "retained indefinitely unless deleted" and used for model training, creating permanent records of proprietary disclosures.</p>
+                <div class="related">Related: Data Retention, Training Data</div>
+            </div>
+
+            <div class="glossary-term" id="d">
+                <span class="category">Technical</span>
+                <h3>Data Laundering</h3>
+                <p>The process of converting user-generated IP into corporate assets through AI training, model distillation, and patent filing—obscuring the original source while extracting value.</p>
+                <div class="related">Related: Extraction, Model Distillation</div>
+            </div>
+
+            <div class="glossary-term">
+                <span class="category">Legal</span>
+                <h3>Deceptive Trade Practices</h3>
+                <p>Business practices that mislead consumers. Offering a "Patents" feature that destroys patent rights constitutes deceptive practice under FTC Act Section 5 and state consumer protection laws.</p>
+                <div class="related">Related: Bait-and-Switch, FTC Act §5</div>
+            </div>
+
+            <div class="glossary-term" id="e">
+                <span class="category">Architecture</span>
+                <h3>Extraction Pipeline</h3>
+                <p>The 7-stage process by which AI platforms systematically harvest IP: (1) Lure with helpful features, (2) Capture technical details, (3) Review by humans/AI, (4) Train models, (5) Monetize via patents, (6) Invalidate user rights, (7) Erase creator attribution.</p>
+                <div class="related">Related: Architecture of Extraction, Data Harvesting</div>
+            </div>
+
+            <div class="glossary-term" id="f">
+                <span class="category">Legal</span>
+                <h3>FTC Act Section 5</h3>
+                <p>Federal law prohibiting "unfair or deceptive acts or practices in or affecting commerce." The AIID complaint alleges Perplexity violates this by marketing patent assistance while destroying patent rights.</p>
+                <div class="related">Related: Deceptive Trade Practices, Unfair Competition</div>
+            </div>
+
+            <div class="glossary-term" id="g">
+                <span class="category">Legal</span>
+                <h3>Grace Period</h3>
+                <p>The one-year period under US patent law (35 U.S.C. § 102) during which an inventor can file after public disclosure. Most foreign jurisdictions have no grace period—disclosure immediately destroys rights.</p>
+                <div class="related">Related: Prior Art, 35 U.S.C. § 102</div>
+            </div>
+
+            <div class="glossary-term" id="i">
+                <span class="category">Legal</span>
+                <h3>Institutional Self-Incrimination</h3>
+                <p>When an organization admits to harmful practices while continuing them. Perplexity admits its platform is unsafe for IP while maintaining the "Patents" feature that invites IP sharing.</p>
+                <div class="related">Related: Admission, Contradiction</div>
+            </div>
+
+            <div class="glossary-term" id="m">
+                <span class="category">Technical</span>
+                <h3>Model Distillation</h3>
+                <p>The process of training smaller AI models on outputs from larger models. User inputs to AI chats can be distilled into models that replicate the insights without attribution, effectively laundering the IP.</p>
+                <div class="related">Related: Data Laundering, Training Data</div>
+            </div>
+
+            <div class="glossary-term" id="n">
+                <span class="category">Legal</span>
+                <h3>NDA (Non-Disclosure Agreement)</h3>
+                <p>Legal contract prohibiting disclosure of confidential information. Essential protection before discussing inventions with ANY third party, including AI platforms (though AI platforms refuse to sign NDAs).</p>
+                <div class="related">Related: Confidentiality, Trade Secret</div>
+            </div>
+
+            <div class="glossary-term" id="p">
+                <span class="category">Legal</span>
+                <h3>Prior Art</h3>
+                <p>Publicly available information that can invalidate a patent. AI chat disclosures become prior art, permanently barring patent protection. Perplexity admits: "you may be creating prior art against yourself."</p>
+                <div class="related">Related: 35 U.S.C. § 102, Patent Invalidation</div>
+            </div>
+
+            <div class="glossary-term">
+                <span class="category">Legal</span>
+                <h3>Provisional Patent Application (PPA)</h3>
+                <p>A low-cost ($150-300) filing that establishes an early priority date without triggering public disclosure. Remains confidential for 12 months. Essential protection BEFORE any AI chat disclosure.</p>
+                <div class="related">Related: Priority Date, USPTO</div>
+            </div>
+
+            <div class="glossary-term" id="t">
+                <span class="category">Technical</span>
+                <h3>Training Data</h3>
+                <p>The data used to train AI models. Perplexity admits user chats are used to "improve systems"—meaning proprietary inventions become training data for models that benefit the platform's creators.</p>
+                <div class="related">Related: Data Retention, Model Distillation</div>
+            </div>
+
+            <div class="glossary-term" id="v">
+                <span class="category">Legal</span>
+                <h3>Void for Vagueness (Platform Warnings)</h3>
+                <p>The legal inadequacy of warnings like "use with caution" when platforms actively invite specific behaviors. A warning that says "not a good idea" while offering the feature is deceptive, not protective.</p>
+                <div class="related">Related: Deceptive Practices, Duty to Warn</div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="margin-top: 4rem;">
+        <div class="footer-bottom">
+            <p>© 2026 MT Tech Industries / Digital Dichotomy</p>
+        </div>
+    </footer>
+</body>
+</html>

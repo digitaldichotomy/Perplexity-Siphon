@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Collaboration | AIID - Digital Dichotomy</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .research-section { background: var(--bg-secondary); min-height: 100vh; padding-top: 8rem; }
+        .research-container { max-width: 1000px; margin: 0 auto; padding: 0 2rem; }
+        .research-areas { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 3rem 0; }
+        .research-card { background: var(--bg-tertiary); padding: 1.5rem; border-top: 4px solid var(--accent-cyan); }
+        .research-card h3 { color: var(--accent-cyan); margin-bottom: 0.5rem; font-size: 1.1rem; }
+        .research-card p { color: var(--text-secondary); font-size: 0.9rem; }
+        .publications { background: var(--bg-tertiary); padding: 2rem; margin: 3rem 0; }
+        .publications h3 { color: var(--accent-red); margin-bottom: 1.5rem; }
+        .pub-item { padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .pub-item:last-child { border-bottom: none; }
+        .pub-item h4 { color: var(--text-primary); margin-bottom: 0.3rem; }
+        .pub-item p { color: var(--text-muted); font-size: 0.85rem; }
+        .pub-item .status { display: inline-block; padding: 0.2rem 0.6rem; font-size: 0.75rem; margin-top: 0.5rem; }
+        .status-draft { background: rgba(255,107,53,0.2); color: var(--accent-orange); }
+        .status-review { background: rgba(5,217,232,0.2); color: var(--accent-cyan); }
+        .status-published { background: rgba(0,255,136,0.2); color: #00ff88; }
+        .data-access { background: linear-gradient(135deg, rgba(255,42,109,0.1), rgba(157,78,221,0.1)); border: 1px solid var(--accent-purple); padding: 2rem; margin: 3rem 0; }
+        .collab-form { background: var(--bg-tertiary); padding: 2.5rem; margin: 3rem 0; }
+        .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+        @media (max-width: 600px) { .form-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">AIID</a>
+            <ul class="nav-links">
+                <li><a href="index.html#pipeline">The Pipeline</a></li>
+                <li><a href="index.html#evidence">Evidence</a></li>
+                <li><a href="index.html#complaint">Complaint</a></li>
+                <li><a href="index.html#action">Take Action</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="research-section">
+        <div class="research-container">
+            <div class="section-header">
+                <span class="section-tag">Academic Collaboration</span>
+                <h1 class="section-title">Research Collaboration</h1>
+                <p class="section-desc">Join peer-reviewed research on AI invention disclosure, IP extraction, and inventor rights.</p>
+            </div>
+
+            <div class="research-areas">
+                <div class="research-card">
+                    <h3>🔍 Platform Analysis</h3>
+                    <p>Technical audit of AI chat platforms' data retention, training pipelines, and IP extraction mechanisms.</p>
+                </div>
+                <div class="research-card">
+                    <h3>⚖️ Legal Framework</h3>
+                    <p>Analysis of patent law, trade secret law, and consumer protection as applied to AI-mediated disclosure.</p>
+                </div>
+                <div class="research-card">
+                    <h3>📊 Impact Assessment</h3>
+                    <p>Quantifying economic harm to individual inventors and innovation ecosystems from extraction practices.</p>
+                </div>
+                <div class="research-card">
+                    <h3>🔒 Technical Countermeasures</h3>
+                    <p>Developing privacy-preserving AI tools that genuinely protect inventor confidentiality.</p>
+                </div>
+                <div class="research-card">
+                    <h3>📜 Policy Recommendations</h3>
+                    <p>Evidence-based proposals for regulatory frameworks governing AI invention assistance.</p>
+                </div>
+                <div class="research-card">
+                    <h3>🧠 Cognitive Analysis</h3>
+                    <p>Understanding how AI interfaces exploit cognitive biases to encourage over-disclosure.</p>
+                </div>
+            </div>
+
+            <div class="publications">
+                <h3>📚 Publications & Working Papers</h3>
+
+                <div class="pub-item">
+                    <h4>The Architecture of Extraction: How AI Platforms Harvest Invention</h4>
+                    <p>Comprehensive analysis of the 7-stage pipeline. Documents systematic IP extraction by Perplexity and similar platforms.</p>
+                    <span class="status status-draft">Draft - Seeking Co-Authors</span>
+                </div>
+
+                <div class="pub-item">
+                    <h4>Prior Art by Design: AI Chat as Patent Invalidation</h4>
+                    <p>Legal analysis of how platform design creates statutory prior art under 35 U.S.C. § 102.</p>
+                    <span class="status status-review">Under Review</span>
+                </div>
+
+                <div class="pub-item">
+                    <h4>The Deceptive Interface: Cognitive Exploitation in AI Patent Tools</h4>
+                    <p>Psychological and HCI analysis of how "Patents" features exploit inventor trust.</p>
+                    <span class="status status-draft">Draft</span>
+                </div>
+
+                <div class="pub-item">
+                    <h4>Data Laundering: From User Input to Corporate Patent</h4>
+                    <p>Case studies of invention extraction and subsequent corporate filing patterns.</p>
+                    <span class="status status-draft">Research Phase</span>
+                </div>
+            </div>
+
+            <div class="data-access">
+                <h3 style="color: var(--accent-purple); margin-bottom: 1rem;">📦 Data Repository Access</h3>
+                <p>Qualified researchers can access:</p>
+                <ul style="color: var(--text-secondary); margin: 1rem 0 1rem 1.5rem;">
+                    <li>Anonymized chat logs and platform responses</li>
+                    <li>Patent filing timeline correlations</li>
+                    <li>Privacy policy version history</li>
+                    <li>Third-party data sharing documentation</li>
+                    <li>Comparative platform analysis dataset</li>
+                </ul>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">All data shared under academic research agreements with IRB approval where required.</p>
+            </div>
+
+            <div class="collab-form">
+                <h3 style="color: var(--accent-cyan); margin-bottom: 1.5rem;">Collaborate With Us</h3>
+
+                <form onsubmit="event.preventDefault(); alert('Research inquiry received. We will contact you within 48 hours.');">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Institution</label>
+                            <input type="text" placeholder="University or research organization" required>
+                        </div>
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label>Department/Field</label>
+                            <input type="text" placeholder="e.g., Law, CS, HCI, Economics">
+                        </div>
+                        <div class="form-group">
+                            <label>Academic Status</label>
+                            <select>
+                                <option>Professor / PI</option>
+                                <option>Postdoctoral Researcher</option>
+                                <option>Graduate Student</option>
+                                <option>Undergraduate</option>
+                                <option>Independent Researcher</option>
+                                <option>Industry Researcher</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Research Interests</label>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                            <label style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-secondary); text-transform: none; font-size: 0.9rem;">
+                                <input type="checkbox"> Platform analysis
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-secondary); text-transform: none; font-size: 0.9rem;">
+                                <input type="checkbox"> Legal framework
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-secondary); text-transform: none; font-size: 0.9rem;">
+                                <input type="checkbox"> Economic impact
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-secondary); text-transform: none; font-size: 0.9rem;">
+                                <input type="checkbox"> Technical countermeasures
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-secondary); text-transform: none; font-size: 0.9rem;">
+                                <input type="checkbox"> Policy analysis
+                            </label>
+                            <label style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-secondary); text-transform: none; font-size: 0.9rem;">
+                                <input type="checkbox"> Cognitive/behavioral
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Proposed Contribution</label>
+                        <textarea rows="4" placeholder="Describe your research interests and how you would contribute to the AIID project"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>CV/Portfolio Link</label>
+                        <input type="url" placeholder="https://... or LinkedIn profile">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Contact Email</label>
+                        <input type="email" placeholder=" Institutional email preferred" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit Research Inquiry</button>
+                </form>
+
+                <p style="color: var(--text-muted); margin-top: 1.5rem; font-size: 0.85rem;">
+                    Direct inquiries: <strong>research@digitaldichotomy.com</strong>
+                </p>
+            </div>
+
+            <div class="tip-box">
+                <strong>💡 Open Science Commitment:</strong> All AIID research is committed to open access publication. Data and methodologies will be publicly available to ensure reproducibility and maximum impact.
+            </div>
+        </div>
+    </section>
+
+    <footer style="margin-top: 4rem;">
+        <div class="footer-bottom">
+            <p>© 2026 MT Tech Industries / Digital Dichotomy. Research for the public interest.</p>
+        </div>
+    </footer>
+</body>
+</html>

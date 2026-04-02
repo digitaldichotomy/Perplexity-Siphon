@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Template | AIID - Digital Dichotomy</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .template-section { background: var(--bg-secondary); min-height: 100vh; padding-top: 8rem; }
+        .template-container { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
+        .template-box { background: var(--bg-tertiary); border: 1px solid var(--border-glow); padding: 3rem; margin: 2rem 0; }
+        .template-box h2 { color: var(--accent-cyan); margin-bottom: 1.5rem; }
+        .template-content { font-family: 'Courier New', monospace; background: #0d0d12; padding: 2rem; border-left: 4px solid var(--accent-red); white-space: pre-wrap; overflow-x: auto; font-size: 0.9rem; line-height: 1.8; }
+        .copy-btn { margin-top: 1rem; }
+        .instructions { background: rgba(255, 107, 53, 0.1); border-left: 4px solid var(--accent-orange); padding: 1.5rem; margin: 2rem 0; }
+        .instructions h3 { color: var(--accent-orange); margin-bottom: 1rem; }
+        .instructions ul { margin-left: 1.5rem; color: var(--text-secondary); }
+        .instructions li { margin-bottom: 0.5rem; }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">AIID</a>
+            <ul class="nav-links">
+                <li><a href="index.html#pipeline">The Pipeline</a></li>
+                <li><a href="index.html#evidence">Evidence</a></li>
+                <li><a href="index.html#complaint">Complaint</a></li>
+                <li><a href="index.html#action">Take Action</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="template-section">
+        <div class="template-container">
+            <div class="section-header">
+                <span class="section-tag">Advocacy Tool</span>
+                <h1 class="section-title">File Your Own Complaint</h1>
+                <p class="section-desc">Use this template to file complaints with regulatory bodies and consumer protection agencies.</p>
+            </div>
+
+            <div class="instructions">
+                <h3>📋 Filing Instructions</h3>
+                <ul>
+                    <li><strong>Federal Trade Commission (FTC):</strong> File at reportfraud.ftc.gov - Select "Online Service" and "Deceptive Practices"</li>
+                    <li><strong>Electronic Frontier Foundation:</strong> Email to info@eff.org with subject "AI Invention Disclosure Complaint"</li>
+                    <li><strong>State Attorney General:</strong> Search "[Your State] Attorney General consumer complaint"</li>
+                    <li><strong>USPTO:</strong> Contact ombudsman@uspto.gov regarding patent rights interference</li>
+                    <li>Customize the template with your specific experience and evidence</li>
+                    <li>Keep copies of all submissions for your records</li>
+                </ul>
+            </div>
+
+            <div class="template-box">
+                <h2>FTC Complaint Template</h2>
+                <div class="template-content" id="ftc-template">COMPLAINT TO THE FEDERAL TRADE COMMISSION
+Re: Deceptive Trade Practices by Perplexity.ai
+
+Date: [INSERT DATE]
+Complainant: [YOUR NAME]
+Contact: [YOUR EMAIL/PHONE]
+
+PRODUCT/SERVICE: Perplexity.ai "Patents" feature and AI chat services
+
+ISSUE SUMMARY:
+Perplexity.ai operates a systematic invention extraction pipeline that destroys consumer patent rights through deceptive design. The platform invites users to share proprietary inventions via a dedicated "Patents" feature, while simultaneously admitting in user interactions that:
+
+1. All chats are retained indefinitely and reviewed by humans
+2. Content is used to train AI models benefiting the platform's creators  
+3. Sharing invention details creates prior art that destroys patent rights
+4. Data is shared with third parties (Meta, Google) without informed consent
+5. No attorney-client privilege or confidentiality protections exist
+
+DECEPTIVE PRACTICES:
+- Bait-and-switch: Marketing "Patent" assistance while admitting it's "not a good idea" for sensitive IP
+- Material omission: Failing to disclose that using the service creates prior art
+- Unfair design: Structuring the platform to harvest IP while disclaiming responsibility
+
+CONSUMER HARM:
+I/Other users have lost valuable patent rights and trade secrets through reliance on Perplexity's deceptive representations. The platform's design permanently bars inventors from protection while enriching the platform through data extraction.
+
+EVIDENCE:
+- Screenshot documentation of Perplexity admissions attached
+- Privacy policy showing data retention and third-party sharing
+- Class-action lawsuit filings (April 2026) confirming Meta/Google data sharing
+
+REQUESTED REMEDY:
+- Investigation into Perplexity.ai's practices
+- Mandatory disclosure warnings before invention-related chats
+- Deletion of training data derived from inventor disclosures
+- Restitution for affected inventors
+- Regulatory framework for AI "innovation assistance" platforms
+
+Respectfully submitted,
+[YOUR SIGNATURE]
+[DATE]</div>
+                <button class="btn btn-primary copy-btn" onclick="copyTemplate('ftc-template')">Copy to Clipboard</button>
+            </div>
+
+            <div class="template-box">
+                <h2>State Attorney General Template</h2>
+                <div class="template-content" id="ag-template">CONSUMER COMPLAINT - [YOUR STATE] ATTORNEY GENERAL
+
+Complainant Information:
+Name: [YOUR NAME]
+Address: [YOUR ADDRESS]
+Phone: [YOUR PHONE]
+Email: [YOUR EMAIL]
+
+Business Information:
+Name: Perplexity AI, Inc.
+Website: perplexity.ai
+Address: [San Francisco, CA - check current]
+
+Complaint Details:
+Perplexity.ai operates an AI chat platform with a dedicated "Patents" feature marketed to inventors and entrepreneurs. The platform invites users to share proprietary inventions, technical specifications, and trade secrets.
+
+However, Perplexity admits in user interactions that:
+- All conversations are stored indefinitely
+- Human reviewers analyze chat content
+- Data is used to train AI models
+- Information is shared with third parties (Meta, Google)
+- No confidentiality protections exist
+
+This constitutes:
+1. Deceptive trade practices (offering patent help that destroys patents)
+2. Unfair business practices (harvesting IP without informed consent)
+3. Privacy violations (sharing data without meaningful disclosure)
+
+I request the Attorney General investigate these practices and protect California/other state inventors from this extraction scheme.
+
+Attached: Evidence screenshots, correspondence, privacy policy analysis
+
+Signed: ___________________
+Date: [DATE]</div>
+                <button class="btn btn-primary copy-btn" onclick="copyTemplate('ag-template')">Copy to Clipboard</button>
+            </div>
+
+            <div class="template-box">
+                <h2>USPTO Ombudsman Template</h2>
+                <div class="template-content" id="uspto-template">MEMORANDUM TO USPTO OMBUDSMAN
+Re: Systemic Interference with Patent Rights by AI Platforms
+
+To: USPTO Office of the Ombudsman
+From: [YOUR NAME], Inventor
+Date: [DATE]
+
+ISSUE:
+AI platforms, specifically Perplexity.ai, are systematically destroying inventor patent rights through deceptive "invention assistance" features that create prior art without informed consent.
+
+BACKGROUND:
+Perplexity.ai offers a "Patents" feature inviting inventors to share innovations. The platform admits that:
+- All disclosures are retained and reviewed
+- Sharing creates "prior art against yourself"
+- No confidentiality protections exist
+
+This design permanently bars inventors from patent protection under 35 U.S.C. § 102, while the platform benefits from extracted IP.
+
+REQUEST:
+1. Issue guidance warning inventors against AI chat disclosure
+2. Coordinate with FTC on deceptive trade practice investigation
+3. Consider rulemaking on AI platform patent interference
+4. Protect inventor rights in the AI era
+
+This is not isolated fraud but systematic architecture designed to extract and monetize unprotected inventions.
+
+Respectfully,
+[YOUR NAME]
+[CONTACT]</div>
+                <button class="btn btn-primary copy-btn" onclick="copyTemplate('uspto-template')">Copy to Clipboard</button>
+            </div>
+
+            <div class="warning-banner">
+                <span class="icon">⚠️</span>
+                <p><strong>Important:</strong> This is a template only. Consult with an attorney before filing legal complaints. This does not constitute legal advice.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer style="margin-top: 4rem;">
+        <div class="footer-bottom">
+            <p>© 2026 MT Tech Industries / Digital Dichotomy. Templates provided for advocacy purposes.</p>
+        </div>
+    </footer>
+
+    <script>
+        function copyTemplate(id) {
+            const content = document.getElementById(id).innerText;
+            navigator.clipboard.writeText(content).then(() => {
+                alert('Template copied to clipboard! Customize before filing.');
+            });
+        }
+    </script>
+</body>
+</html>

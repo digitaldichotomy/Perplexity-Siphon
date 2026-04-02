@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Map | AIID - Digital Dichotomy</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .sitemap-section { background: var(--bg-secondary); min-height: 100vh; padding-top: 8rem; }
+        .sitemap-container { max-width: 1000px; margin: 0 auto; padding: 0 2rem; }
+        .sitemap-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem; }
+        .sitemap-category { background: var(--bg-tertiary); padding: 1.5rem; }
+        .sitemap-category h3 { color: var(--accent-cyan); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid var(--accent-cyan); }
+        .sitemap-category ul { list-style: none; }
+        .sitemap-category li { margin-bottom: 0.8rem; }
+        .sitemap-category a { color: var(--text-secondary); text-decoration: none; display: flex; justify-content: space-between; transition: all 0.3s; }
+        .sitemap-category a:hover { color: var(--accent-red); padding-left: 0.5rem; }
+        .sitemap-category .tag { font-size: 0.7rem; padding: 0.1rem 0.4rem; background: rgba(255,42,109,0.2); color: var(--accent-red); }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">AIID</a>
+            <ul class="nav-links">
+                <li><a href="index.html#pipeline">The Pipeline</a></li>
+                <li><a href="index.html#evidence">Evidence</a></li>
+                <li><a href="index.html#complaint">Complaint</a></li>
+                <li><a href="index.html#action">Take Action</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="sitemap-section">
+        <div class="sitemap-container">
+            <div class="section-header">
+                <span class="section-tag">Navigation</span>
+                <h1 class="section-title">Site Map</h1>
+                <p class="section-desc">Complete directory of the AIID investigation website.</p>
+            </div>
+
+            <div class="sitemap-grid">
+                <div class="sitemap-category">
+                    <h3>📄 Core Investigation</h3>
+                    <ul>
+                        <li><a href="index.html">Home / Main Investigation <span class="tag">START</span></a></li>
+                        <li><a href="index.html#pipeline">The 7-Stage Pipeline</a></li>
+                        <li><a href="index.html#evidence">Evidence Archive</a></li>
+                        <li><a href="index.html#complaint">Formal Complaint</a></li>
+                        <li><a href="timeline.html">Investigation Timeline</a></li>
+                    </ul>
+                </div>
+
+                <div class="sitemap-category">
+                    <h3>⚖️ Legal Action</h3>
+                    <ul>
+                        <li><a href="complaint-template.html">File a Complaint <span class="tag">ACTION</span></a></li>
+                        <li><a href="legal-coalition.html">Join Legal Coalition</a></li>
+                        <li><a href="testimonials.html">Affected Inventors</a></li>
+                    </ul>
+                </div>
+
+                <div class="sitemap-category">
+                    <h3>🛡️ Protection</h3>
+                    <ul>
+                        <li><a href="protection-guide.html">IP Protection Guide <span class="tag">ESSENTIAL</span></a></li>
+                        <li><a href="glossary.html">Legal & Technical Glossary</a></li>
+                    </ul>
+                </div>
+
+                <div class="sitemap-category">
+                    <h3>📢 Media & Research</h3>
+                    <ul>
+                        <li><a href="press-kit.html">Press Kit <span class="tag">MEDIA</span></a></li>
+                        <li><a href="research.html">Research Collaboration</a></li>
+                    </ul>
+                </div>
+
+                <div class="sitemap-category">
+                    <h3>ℹ️ About</h3>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Use</a></li>
+                        <li><a href="disclaimer.html">Legal Disclaimer</a></li>
+                    </ul>
+                </div>
+
+                <div class="sitemap-category">
+                    <h3>🔗 External Resources</h3>
+                    <ul>
+                        <li><a href="https://www.uspto.gov" target="_blank">USPTO <span class="tag">EXT</span></a></li>
+                        <li><a href="https://www.eff.org" target="_blank">EFF <span class="tag">EXT</span></a></li>
+                        <li><a href="https://reportfraud.ftc.gov" target="_blank">FTC Complaint <span class="tag">EXT</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="margin-top: 4rem;">
+        <div class="footer-bottom">
+            <p>© 2026 MT Tech Industries / Digital Dichotomy</p>
+        </div>
+    </footer>
+</body>
+</html>

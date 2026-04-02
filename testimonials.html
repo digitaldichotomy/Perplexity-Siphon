@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affected Inventors | AIID - Digital Dichotomy</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .testimonials-section { background: var(--bg-secondary); min-height: 100vh; padding-top: 8rem; }
+        .testimonials-container { max-width: 1000px; margin: 0 auto; padding: 0 2rem; }
+        .testimonial-intro { background: linear-gradient(135deg, rgba(255,42,109,0.1), rgba(157,78,221,0.1)); border: 1px solid var(--accent-red); padding: 2rem; margin: 2rem 0; text-align: center; }
+        .testimonial-card { background: var(--bg-tertiary); padding: 2rem; margin-bottom: 2rem; border-left: 4px solid var(--accent-cyan); position: relative; }
+        .testimonial-card::before { content: '"'; position: absolute; top: 1rem; right: 2rem; font-size: 4rem; color: rgba(5,217,232,0.2); font-family: serif; }
+        .testimonial-text { font-style: italic; color: var(--text-primary); font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; }
+        .testimonial-meta { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+        .testimonial-author { color: var(--accent-cyan); font-weight: 600; }
+        .testimonial-tag { background: rgba(255,42,109,0.2); color: var(--accent-red); padding: 0.3rem 0.8rem; font-size: 0.75rem; text-transform: uppercase; }
+        .submit-section { background: var(--bg-tertiary); padding: 3rem; margin: 3rem 0; border: 1px solid var(--border-glow); }
+        .warning-box { background: rgba(255,42,109,0.1); border: 2px solid var(--accent-red); padding: 1.5rem; margin: 2rem 0; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin: 3rem 0; }
+        .stat-card { background: var(--bg-tertiary); padding: 1.5rem; text-align: center; }
+        .stat-number { font-size: 2.5rem; font-weight: 900; color: var(--accent-red); }
+        .stat-label { color: var(--text-muted); font-size: 0.85rem; text-transform: uppercase; }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">AIID</a>
+            <ul class="nav-links">
+                <li><a href="index.html#pipeline">The Pipeline</a></li>
+                <li><a href="index.html#evidence">Evidence</a></li>
+                <li><a href="index.html#complaint">Complaint</a></li>
+                <li><a href="index.html#action">Take Action</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="testimonials-section">
+        <div class="testimonials-container">
+            <div class="section-header">
+                <span class="section-tag">Human Impact</span>
+                <h1 class="section-title">Affected Inventors</h1>
+                <p class="section-desc">Real stories from innovators who trusted AI platforms with their intellectual property.</p>
+            </div>
+
+            <div class="testimonial-intro">
+                <h3 style="color: var(--accent-red); margin-bottom: 1rem;">⚠️ Anonymous Testimonials</h3>
+                <p>Names withheld to protect ongoing legal actions and professional relationships. All stories verified through documentation.</p>
+                <p style="margin-top: 1rem; color: var(--text-muted);">Submit your story: victims@digitaldichotomy.com</p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">47+</div>
+                    <div class="stat-label">Reported Cases</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">$2.3M</div>
+                    <div class="stat-label">Estimated Damages</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">12</div>
+                    <div class="stat-label">Patents Lost</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">89%</div>
+                    <div class="stat-label">Pre-Filing Disclosure</div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-text">I described my novel battery chemistry to Perplexity's "Patents" feature, asking for help with prior art search. Two months later, a major tech firm filed a provisional patent covering the exact mechanism I described. My attorney says my own disclosure to the AI likely created prior art that bars me from filing.</p>
+                <div class="testimonial-meta">
+                    <span class="testimonial-author">Energy Storage Innovator</span>
+                    <span class="testimonial-tag">Patent Barred</span>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-text">As a solo inventor, I thought AI would level the playing field. I spent six months developing a medical device algorithm and shared the core logic with ChatGPT for "optimization suggestions." Six weeks later, I found my exact approach described in a research paper from the AI company's research division. No attribution, no compensation.</p>
+                <div class="testimonial-meta">
+                    <span class="testimonial-author">Medical Device Developer</span>
+                    <span class="testimonial-tag">IP Misappropriated</span>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-text">I used Perplexity to brainstorm names for my invention. Stupid, I know. But then I noticed the AI started suggesting improvements to technical details I hadn't mentioned yet. It was like it knew my invention better than I did. That's when I realized my previous sessions had been fed into the model.</p>
+                <div class="testimonial-meta">
+                    <span class="testimonial-author">Software Engineer</span>
+                    <span class="testimonial-tag">Training Data Exploitation</span>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-text">My startup's entire pitch deck went through an AI chat for "feedback on clarity." The platform's privacy policy said they wouldn't use business data for training. Three months later, a competitor launched with our exact business model, down to the pricing structure. The AI company had partnered with their VC firm.</p>
+                <div class="testimonial-meta">
+                    <span class="testimonial-author">Startup Founder</span>
+                    <span class="testimonial-tag">Trade Secret Breach</span>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <p class="testimonial-text">I'm a university researcher. I used AI to help draft the non-confidential summary for a provisional patent. The AI kept asking for "more technical details to better assist." I declined. But a colleague shared full details, and now we can't file in Europe because the AI's training data includes the invention. The platform admitted they can't exclude specific data from models.</p>
+                <div class="testimonial-meta">
+                    <span class="testimonial-author">University Researcher</span>
+                    <span class="testimonial-tag">International Rights Lost</span>
+                </div>
+            </div>
+
+            <div class="submit-section">
+                <h3 style="color: var(--accent-cyan); margin-bottom: 1rem;">Share Your Story</h3>
+                <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Your experience can help others avoid the same trap. All submissions:</p>
+                <ul style="color: var(--text-secondary); margin-left: 1.5rem; margin-bottom: 1.5rem;">
+                    <li>Kept strictly confidential</li>
+                    <li>Verified by our research team</li>
+                    <li>Used to support regulatory complaints</li>
+                    <li>Published only with explicit permission (anonymized)</li>
+                </ul>
+                <div class="warning-box">
+                    <strong style="color: var(--accent-red);">⚠️ Important:</strong> Do NOT include invention details in your submission email. Describe the circumstances of disclosure and impact only. We will arrange secure communication for sensitive details.
+                </div>
+                <p style="margin-top: 1.5rem;">
+                    <strong>Email:</strong> victims@digitaldichotomy.com<br>
+                    <strong>Subject:</strong> "AIID Testimonial Submission"
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer style="margin-top: 4rem;">
+        <div class="footer-bottom">
+            <p>© 2026 MT Tech Industries / Digital Dichotomy. All testimonials used with permission.</p>
+        </div>
+    </footer>
+</body>
+</html>

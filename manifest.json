@@ -1,0 +1,96 @@
+{
+  "name": "AIID - Architecture of AI Invention Disclosure",
+  "short_name": "AIID",
+  "description": "Exposing systematic IP extraction by AI chat platforms",
+  "version": "1.0.0",
+  "author": "MT Tech Industries / Digital Dichotomy",
+  "license": "CC BY-NC-SA 4.0",
+  "homepage": "https://digitaldichotomy.com/aiid",
+  "repository": "https://github.com/digitaldichotomy/aiid",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "AIID | Architecture of AI Invention Disclosure",
+      "description": "Main investigation page exposing the 7-stage extraction pipeline",
+      "priority": 1
+    },
+    {
+      "file": "complaint-template.html",
+      "title": "File a Complaint | AIID",
+      "description": "Templates for FTC, AG, and USPTO complaints",
+      "priority": 2
+    },
+    {
+      "file": "protection-guide.html",
+      "title": "IP Protection Guide | AIID",
+      "description": "Comprehensive guide to protecting inventions from AI extraction",
+      "priority": 2
+    },
+    {
+      "file": "press-kit.html",
+      "title": "Press Kit | AIID",
+      "description": "Media resources and expert contacts",
+      "priority": 3
+    },
+    {
+      "file": "legal-coalition.html",
+      "title": "Legal Coalition | AIID",
+      "description": "Attorney coalition for coordinated legal action",
+      "priority": 3
+    },
+    {
+      "file": "research.html",
+      "title": "Research Collaboration | AIID",
+      "description": "Academic research portal",
+      "priority": 3
+    },
+    {
+      "file": "timeline.html",
+      "title": "Investigation Timeline | AIID",
+      "description": "Chronology of key events",
+      "priority": 4
+    },
+    {
+      "file": "testimonials.html",
+      "title": "Affected Inventors | AIID",
+      "description": "Stories from victims of AI IP extraction",
+      "priority": 4
+    },
+    {
+      "file": "glossary.html",
+      "title": "Glossary | AIID",
+      "description": "Key terms and concepts",
+      "priority": 4
+    },
+    {
+      "file": "sitemap.html",
+      "title": "Site Map | AIID",
+      "description": "Complete site navigation",
+      "priority": 5
+    }
+  ],
+  "assets": {
+    "css": ["assets/css/style.css"],
+    "js": [],
+    "images": []
+  },
+  "dependencies": {
+    "external": [],
+    "fonts": ["System fonts only"]
+  },
+  "deployment": {
+    "type": "static",
+    "requirements": ["Web server with HTTPS"],
+    "recommended_hosts": ["GitHub Pages", "Netlify", "Vercel", "Cloudflare Pages"],
+    "form_handling": "Formspree, Netlify Forms, or custom backend required"
+  },
+  "seo": {
+    "keywords": ["AI invention disclosure", "patent rights", "IP extraction", "Perplexity.ai", "intellectual property theft", "AI chat privacy"],
+    "robots": "index, follow"
+  },
+  "security": {
+    "csp_recommended": "default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'",
+    "https_required": true,
+    "tracking": "none"
+  }
+}
