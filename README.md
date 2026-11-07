@@ -38,8 +38,8 @@ digitaldichotomy_aiid/
 └── assets/
     ├── css/
     │   └── style.css         # Dark cyberpunk theme, responsive
-    ├── js/                   # (Future enhancements)
-    └── images/               # (Add screenshots/evidence)
+    ├── js/                   # (Planned - not present in this repo)
+    └── images/               # (Planned - not present in this repo)
 ```
 
 ---
