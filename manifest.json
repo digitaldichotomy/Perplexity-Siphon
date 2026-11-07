@@ -6,7 +6,7 @@
   "author": "MT Tech Industries / Digital Dichotomy",
   "license": "CC BY-NC-SA 4.0",
   "homepage": "https://digitaldichotomy.com/aiid",
-  "repository": "https://github.com/digitaldichotomy/aiid",
+  "repository": "https://github.com/digitaldichotomy/Perplexity-Siphon",
   "pages": [
     {
       "file": "index.html",
@@ -72,7 +72,21 @@
   "assets": {
     "css": ["assets/css/style.css"],
     "js": [],
-    "images": []
+    "images": [
+      "assets/css/Screenshot 2026-04-02 01-54-52.png",
+      "assets/css/Screenshot 2026-04-02 02-03-01.png",
+      "assets/css/Screenshot 2026-04-02 02-05-16.png",
+      "assets/css/Screenshot 2026-04-02 02-05-24.png",
+      "assets/css/Screenshot 2026-04-02 02-05-28.png",
+      "assets/css/Screenshot 2026-04-01 23-42-20.png",
+      "assets/css/Screenshot 2026-04-01 23-42-28.png",
+      "assets/css/Screenshot 2026-04-01 23-42-40.png",
+      "assets/css/Screenshot 2026-04-01 23-42-47.png",
+      "assets/css/Screenshot 2026-04-01 23-44-09.png",
+      "assets/css/Screenshot 2026-04-01 23-44-36.png",
+      "assets/css/Screenshot 2026-04-01 23-44-53.png",
+      "assets/css/Screenshot 2026-04-01 23-44-57.png"
+    ]
   },
   "dependencies": {
     "external": [],
