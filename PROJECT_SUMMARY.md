@@ -30,9 +30,8 @@ digitaldichotomy_aiid/
 ├── README.md                    # Comprehensive documentation
 └── DEPLOYMENT.md               # Launch checklist
 ```
-
-**Total Pages**: 14 HTML files + CSS + documentation
-**Size**: ~500KB total (lightweight, fast loading)
+**Total Pages**: 13 HTML files + CSS + documentation
+**Size**: ~19-25 MB total (mostly logos and screencasts)
 **Dependencies**: None (100% self-contained)
 
 ---
