@@ -73,19 +73,19 @@
     "css": ["assets/css/style.css"],
     "js": [],
     "images": [
-      "assets/css/Screenshot 2026-04-02 01-54-52.png",
-      "assets/css/Screenshot 2026-04-02 02-03-01.png",
-      "assets/css/Screenshot 2026-04-02 02-05-16.png",
-      "assets/css/Screenshot 2026-04-02 02-05-24.png",
-      "assets/css/Screenshot 2026-04-02 02-05-28.png",
-      "assets/css/Screenshot 2026-04-01 23-42-20.png",
-      "assets/css/Screenshot 2026-04-01 23-42-28.png",
-      "assets/css/Screenshot 2026-04-01 23-42-40.png",
-      "assets/css/Screenshot 2026-04-01 23-42-47.png",
-      "assets/css/Screenshot 2026-04-01 23-44-09.png",
-      "assets/css/Screenshot 2026-04-01 23-44-36.png",
-      "assets/css/Screenshot 2026-04-01 23-44-53.png",
-      "assets/css/Screenshot 2026-04-01 23-44-57.png"
+      "assets/css/Screenshot From 2026-04-02 01-54-52.png",
+      "assets/css/Screenshot From 2026-04-02 02-03-01.png",
+      "assets/css/Screenshot From 2026-04-02 02-05-16.png",
+      "assets/css/Screenshot From 2026-04-02 02-05-24.png",
+      "assets/css/Screenshot From 2026-04-02 02-05-28.png",
+      "assets/css/Screenshot From 2026-04-01 23-42-20.png",
+      "assets/css/Screenshot From 2026-04-01 23-42-28.png",
+      "assets/css/Screenshot From 2026-04-01 23-42-40.png",
+      "assets/css/Screenshot From 2026-04-01 23-42-47.png",
+      "assets/css/Screenshot From 2026-04-01 23-44-09.png",
+      "assets/css/Screenshot From 2026-04-01 23-44-36.png",
+      "assets/css/Screenshot From 2026-04-01 23-44-53.png",
+      "assets/css/Screenshot From 2026-04-01 23-44-57.png"
     ]
   },
   "dependencies": {
