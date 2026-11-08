@@ -1,113 +1,109 @@
 # AIID - Architecture of AI Invention Disclosure
+## Digital Dichotomy Investigation
 
 > **Note:** Perplexity offers a Patents feature, and Perplexity itself warns that sharing IP there is unsafe.
 
+---
+
 ## Overview
 
-This repository contains the complete AIID **7-stage extraction pipeline** evidence and complaint website. The site documents findings about Perplexity.ai and similar AI chat platforms that allegedly harvest intellectual property through dedicated "Patents" features.
+This multi-page website exposes the "7-Stage Extraction Pipeline" through which AI platforms like Perplexity.ai lure, capture, and monetize unprotected inventions—destroying patent rights and commodifying human genius.
 
-This README documents the complete AIID investigation website, including architecture, content structure, and deployment instructions.
+### The Core Finding
 
-## The Core Finding
+Perplexity.ai maintains a dedicated "Patents" feature inviting inventors to share innovations, while **simultaneously admitting** in user interactions that:
 
-Perplexity.ai operates a systematic IP extraction pipeline:
+- All chats are retained indefinitely and reviewed by humans
+- Content is used to train AI models
+- Sharing creates prior art that destroys patent rights
+- Data is shared with third parties (Meta, Google)
+- No attorney-client privilege or confidentiality protections exist
 
-1. **Lure** - "Patents" feature invites invention sharing
-2. **Capture** - Technical details logged and stored
-3. **Review** - Human reviewers and AI analyze content
-4. **Train** - Proprietary ideas become training data
-5. **Monetize** - Enterprise deals with resource-rich entities
-6. **Invalidate** - Prior art creation destroys patent rights
-7. **Erase** - Original creator's involvement deleted
+This is not a bug. This is the architecture of extraction.
 
 ## Site Structure
 
 ```
 Perplexity-Siphon/
-├── index.html                 # Main investigation page
-├── complaint-template.html    # FTC/EFF complaint templates
-├── protection-guide.html      # IP protection guide
-├── press-kit.html             # Media resources
-├── legal-coalition.html       # Attorney coalition signup
-├── research.html              # Academic research portal
-├── timeline.html              # Investigation timeline
-├── testimonials.html          # Affected inventor stories
-├── glossary.html              # Legal & technical glossary
-├── sitemap.html               # Site navigation map
-├── privacy.html               # Privacy policy
+├── index.html                 # Main investigation
+├── complaint-template.html    # FTC/EFF complaint
+├── protection-guide.html      # IP protection strategies
 ├── terms.html                 # Terms of use
 ├── disclaimer.html            # Legal disclaimer
-├── assets/
-│   └── css/
-│       └── style.css          # Main stylesheet
-├── manifest.json              # Site manifest
-├── README.md                  # This file
-└── PROJECT_SUMMARY.md         # Project overview
+├── press-kit.html             # Media resources
+├── legal-coalition.html       # Attorney coalition
+├── research.html              # Research collaboration
+├── sitemap.html               # Site map
+├── timeline.html              # Investigation timeline
+├── glossary.html              # Glossary of terms
+├── testimonials.html          # Affected inventor stories
+├── assets/css/style.css       # Main stylesheet
+├── js/                        # JavaScript (Planned - not present in this repo)
+└── images/                    # Screenshots (Planned - not present in this repo)
 ```
-
-## Key Pages
-
-### index.html (Main Investigation)
-- **Purpose:** Main landing page presenting the complete investigation
-- **Sections:** Hero, 7-stage pipeline, Evidence (Perplexity screenshots), Formal Complaint, Take Action, Resources
-- **Evidence:** 5 Perplexity chat screenshots, April 2, 2026 (01:54:52, 02:03:01, 02:05:16, 02:05:24, 02:05:28), and Doe v. Perplexity AI, Inc., Meta Platforms, Inc., and Google, LLC, No. 3:26-cv-02803
-- **Design:** 6 evidence cards (admission, retention, prior art, contradiction, lawsuit, "safe" alternative)
-
-### complaint-template.html
-- **Purpose:** Helps users file their own complaints
-- **Includes:** FTC, EFF, and attorney general templates
-- **Features:** Copy-to-clipboard, downloadable PDF format
-
-### protection-guide.html
-- **Purpose:** Teaches inventors to protect IP from AI extraction
-- **Includes:** Provisional patents, NDAs, zero-retention tools, documentation strategies
-
-### press-kit.html
-- **Purpose:** Media resources for journalists
-- **Includes:** PR boilerplate, fact sheet (7 stages, 1 lawsuit, 100% data retention admitted, 0% confidentiality), timeline, downloadable assets, media inquiry form
-
-### legal-coalition.html
-- **Purpose:** Attorney signup for class-action coordination
-- **Includes:** Practice area selection, bar number, mailto link
-
-### research.html
-- **Purpose:** Academic research collaboration portal
-- **Includes:** Research questions, submission portal, mailto link
-
-### timeline.html
-- **Purpose:** Chronological investigation timeline
-- **Includes:** Key events from 2025-2026, annotated dates
-
-### testimonials.html
-- **Purpose:** Affected inventor stories
-- **Note:** No verified testimonials are published here.
-
-### glossary.html
-- **Purpose:** Definitions of key legal and technical terms
-- **Includes:** Architecture, prior art, CCPA, FTC Act, etc.
 
 ## Design System
 
-### Colors
-- **Primary background:** `#0a0a0f` (Near black)
-- **Secondary:** `#12121a` (Dark panel)
-- **Tertiary:** `#1a1a2e` (Card background)
-- **Primary text:** `#e0e0e0` (Light gray)
-- **Accent red:** `#ff2a6d` (Alerts, warnings)
-- **Accent cyan:** `#05d9e8` (Links, highlights)
+### Color Palette
 
-### Typography
-- Primary: System sans-serif stack
-- Monospace: 'Courier New' (terminal effects)
-- Glitch effects on hero text
-- Uppercase for navigation and tags
+- **Background:** `#0a0a0f` (deep black)
+- **Secondary:** `#12121a` (elevated surfaces)
+- **Accent Red:** `#ff2a6d` (danger, alerts, extraction)
+- **Accent Cyan:** `#05d9e8` (info, links, protection)
+- **Accent Purple:** `#9d4edd` (legal, formal)
+- **Text Primary:** `#e0e0e0` (headings)
+- **Text Secondary:** `#a0a0b0` (body)
 
-### Effects
-- Glitch animation on main title
-- Glowing borders on alerts
-- Hover transforms on cards
+## Key Pages
+
+### 1. Main Site
+- **Hero:** Dramatic glitch title, "7 stages of extraction" stats
+- **Pipeline:** 7-stage interactive flow diagram
+- **Evidence:** 6 evidence cards with Perplexity admissions
+- **Formal Complaint:** Full legal complaint text
+- **Action Cards:** Share, File Complaint, Protect IP, Media, Legal, Research
+- **Resources:** Links to USPTO, EFF, FTC, legal aid
+
+### 2. Complaint Template
+- Form templates for FTC, Attorney General, and USPTO
+- Sections for personal info, incident details, evidence list
+- Submission guidance and tracking
+
+### 3. Protection Guide
+- Steps to protect inventions before AI disclosure
+- Provisional patent guidance
+- NDA templates and strategies
+- Zero-retention AI tools
+
+### 4. Press Kit
+- Boilerplate text for media use
+- Fact sheet and statistics
+- Key documents and evidence archive
+- Downloadable assets (PDF, images)
+
+### 5. Legal Coalition
+- Attorney coalition signup
+- Practice area selection
+- Bar admission details
+- Secure contact protocols
+
+### 6. Research
+- Academic research questions
+- Case study methodology
+- Submission portal for researchers
+- Peer review coordination
+
+## Typography
+- **Primary:** System sans-serif stack
+- **Code:** Monospace ('Courier New')
+- **Headings:** Uppercase, letter-spaced
+
+## Effects
+- Glitch animation on hero title
+- Glow effects on buttons and cards
+- Hover transforms on interactive elements
 - Smooth scroll navigation
-- Fade-in scroll animations
+- Fade-in on scroll
 
 ---
 
@@ -165,7 +161,7 @@ Recommended additions:
 
 ## Security Considerations
 
-1. **No AI Integration**: This site contains NO AI chat features to avoid the very extraction it documents.
+1. **No AI Integration**: This site contains NO AI chat features to avoid the very extraction it documents
 2. **No Tracking**: No Google Analytics, Facebook Pixel, or third-party trackers
 3. **Minimal Cookies**: Only essential session management if forms implemented
 4. **HTTPS Only**: All resources should load over HTTPS
@@ -175,73 +171,67 @@ Recommended additions:
 
 ## Maintenance
 
-### Updating Content
-- Update `index.html` Evidence section with new verified screenshots
-- Add new timeline events to `timeline.html`
-- Update legal documents as cases progress
+### Content Updates
+- Update "Evidence" section as new admissions surface
+- Add new lawsuit filings to timeline
+- Expand "Resources" as tools emerge
+- Publish research papers when available
 
-### Adding Pages
-1. Create new HTML file using existing structure
-2. Link from navigation and `sitemap.html`
-3. Add to `manifest.json` pages array
-4. Update this README
-
-### Performance
-- Minify CSS/JS for production
-- Optimize images (WebP format)
-- Enable gzip compression
-- Use CDN for static assets
+### Technical Maintenance
+- Monitor for broken links
+- Update copyright year annually
+- Review and update legal precedents
+- Test forms quarterly
 
 ---
 
 ## Contributing
 
-We welcome contributions from:
-- Legal researchers and patent attorneys
-- Inventors and entrepreneurs
-- Web developers and designers
-- Journalists and documentarians
+This is an open investigation. Contributions welcome:
 
-### How to Contribute
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request with detailed description
-5. Await review
+1. **Evidence**: New screenshots, admissions, case law
+2. **Legal**: Complaint templates, legal analysis
+3. **Technical**: Design improvements, accessibility
+4. **Research**: Academic papers, data analysis
+5. **Translation**: Multi-language versions
+
+Contact: aiid@digitaldichotomy.com
 
 ---
 
 ## License
 
-This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
+**Content**: CC BY-NC-SA 4.0 (Attribution-NonCommercial-ShareAlike)
+**Code**: MIT License
 
-You are free to:
-- **Share** — copy and redistribute the material in any medium or format
-- **Adapt** — remix, transform, and build upon the material
-
-Under the following terms:
-- **Attribution** — You must give appropriate credit
-- **NonCommercial** — You may not use the material for commercial purposes
-- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license
-
-See LICENSE file for full terms.
+**Exceptions**:
+- Perplexity screenshots and quotes used under fair use for criticism/commentary
+- Government documents in public domain
 
 ---
 
 ## Contact
 
-### Digital Dichotomy
-- **Email:** aiid@digitaldichotomy.com
-- **Press:** press@digitaldichotomy.com
-- **GitHub:** [github.com/digitaldichotomy/Perplexity-Siphon](https://github.com/digitaldichotomy/Perplexity-Siphon)
+**Investigation Lead**: MT Tech Industries / Digital Dichotomy
+**Email**: aiid@digitaldichotomy.com
+**Secure**: PGP key available upon request
+**Press**: press@digitaldichotomy.com
+**Legal**: legal@digitaldichotomy.com
+**Research**: research@digitaldichotomy.com
 
 ---
 
 ## Acknowledgments
 
-- **Electronic Frontier Foundation** — Privacy advocacy
-- **US Patent and Trademark Office** — Patent resources
-- **Class-action plaintiffs** — Courage to challenge
-- **Open-source community** — Tools and frameworks
+This investigation builds on work by:
 
-**Built with urgency. Built with purpose. Built to protect inventors.**
+- **Electronic Frontier Foundation** (digital rights)
+- **Stanford HAI** (AI ethics research)
+- **Inventors Digest** (inventor advocacy)
+- All affected inventors who shared their stories
+
+---
+
+**Preserve and Distribute. This is evidence.**
+
+*Last Updated: April 2, 2026*
