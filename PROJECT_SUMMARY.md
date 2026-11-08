@@ -1,162 +1,153 @@
 # AIID Website Package - Project Summary
-## Digital Dichotomy Investigation
 
----
+## 📋 Project Overview
 
-## 📦 Package Contents
+The AIID (Architecture of AI Invention Disclosure) website is a complete investigation package documenting systematic intellectual property extraction by AI platforms, specifically Perplexity.ai.
 
-This package contains a complete, production-ready multi-page website exposing the systematic extraction of intellectual property by AI chat platforms.
+**Project Type**: Multi-page static website
+**Primary Language**: HTML5 / CSS3
+**Framework**: None (vanilla)
+**Target Audience**: Inventors, attorneys, journalists, researchers, policymakers
 
-### File Structure
+## 📄 File Structure
+
 ```
-digitaldichotomy_aiid/
-├── index.html                    # Main investigation page (HERO)
-├── complaint-template.html       # FTC/AG/USPTO complaint templates
-├── protection-guide.html         # Comprehensive IP protection guide
-├── press-kit.html               # Media resources
-├── legal-coalition.html         # Attorney coalition signup
-├── research.html                # Academic collaboration
-├── timeline.html                # Investigation chronology
-├── testimonials.html            # Affected inventor stories
-├── glossary.html                # Legal/technical terms
-├── sitemap.html                 # Site navigation
-├── privacy.html                 # Privacy policy
-├── terms.html                   # Terms of use
-├── disclaimer.html              # Legal disclaimer
-├── assets/
-│   └── css/
-│       └── style.css            # Complete dark cyberpunk theme
-├── manifest.json                # Site configuration
-├── README.md                    # Comprehensive documentation
-└── DEPLOYMENT.md               # Launch checklist
+Perplexity-Siphon/
+├── index.html                  # Main investigation (446 lines)
+├── complaint-template.html     # FTC complaint templates
+├── protection-guide.html       # IP protection strategies
+├── press-kit.html              # Media resources
+├── legal-coalition.html        # Attorney coalition signup
+├── research.html               # Research collaboration portal
+├── timeline.html               # Investigation chronology
+├── testimonials.html           # No verified testimonials are published here.
+├── glossary.html               # Legal & technical definitions
+├── sitemap.html                # Site navigation map
+├── privacy.html                # Privacy policy
+├── terms.html                  # Terms of use
+├── disclaimer.html             # Legal disclaimer
+├── assets/css/style.css        # Main stylesheet
+├── manifest.json               # Site manifest
+├── README.md                   # Documentation
+└── PROJECT_SUMMARY.md          # This file
 ```
-**Total Pages**: 13 HTML files + CSS + documentation
-**Size**: ~19-25 MB total (mostly logos and screencasts)
-**Dependencies**: None (100% self-contained)
-
----
 
 ## 🎯 Key Features
 
-### 1. Main Site (index.html)
-- **Glitch effect hero** with animated title
-- **7-Stage Pipeline visualization** with hover effects
-- **6 Evidence cards** with Perplexity admissions
-- **Full formal complaint** to EFF/FTC
-- **6 Action pathways** for different user types
-- **Responsive design** (mobile-first)
+### Interactive Elements
+- 7-stage pipeline visualization with hover effects
+- Interactive evidence cards with source citations
+- Filterable complaint templates
+- Timeline with milestone markers
+- Contact forms (mailto links) on all action pages
 
-### 2. Complaint System (complaint-template.html)
-- FTC complaint template
-- State AG complaint template  
-- USPTO ombudsman template
-- Filing instructions
-- Copy-to-clipboard functionality
+### Content Highlights
+- Formal complaint to FTC/EFF with legal citations
+- Step-by-step IP protection guide
+- Legal coalition signup for attorneys
+- Research collaboration portal
+- Media press kit with fact sheets
 
-### 3. Protection Guide (protection-guide.html)
-- Immediate action checklist
-- Provisional patent guide
-- Documentation best practices
-- NDA templates
-- AI safety rules
-- Monitoring strategies
+## 📝 Pages
 
-### 4. Legal Coalition (legal-coalition.html)
-- Target legal areas
-- Relevant precedents
-- Attorney signup form
-- Confidentiality protections
+### 1. Main Investigation (`index.html`)
+- **Purpose**: Primary landing page and investigation hub
+- **Sections**: Hero, Pipeline, Evidence, Complaint, Action, Resources
+- **Key Elements**:
+  - 7-stage extraction pipeline diagram
+  - 5 Perplexity chat screenshots, April 2, 2026
+  - Formal complaint text
+  - Action cards (6 CTAs)
+  - Resource links
 
-### 5. Research Portal (research.html)
-- 6 research areas
-- Working papers
-- Data repository access
-- Researcher collaboration form
+### 2. Complaint Template (`complaint-template.html`)
+- **Purpose**: Guide users through filing formal complaints
+- **Includes**:
+  - FTC complaint template
+  - State Attorney General template
+  - USPTO complaint guide
+  - Evidence checklist
 
-### 6. Additional Pages
-- **Timeline**: Visual chronology of events
-- **Testimonials**: Anonymous victim stories with stats
-- **Glossary**: 15+ key terms defined
-- **Sitemap**: Complete navigation
-- **Legal pages**: Privacy, terms, disclaimer
+### 3. Protection Guide (`protection-guide.html`)
+- **Purpose**: Teach inventors to protect IP
+- **Includes**:
+  - Provisional patent filing guide
+  - NDA templates
+  - Zero-retention AI tool recommendations
+  - Documentation best practices
 
----
+### 4. Press Kit (`press-kit.html`)
+- **Purpose**: Resources for journalists and media
+- **Includes**:
+  - Press releases and fact sheets
+  - Timeline of events
+  - Key documents and evidence archive
+  - Media inquiry contact
+
+### 5. Legal Coalition (`legal-coalition.html`)
+- **Purpose**: Attorney signup for coordinated action
+- **Includes**:
+  - Practice area selection
+  - Bar admission details
+  - Coalition goals and structure
+
+### 6. Research (`research.html`)
+- **Purpose**: Academic collaboration portal
+- **Includes**:
+  - Research questions
+  - Case study methodology
+  - Publication guidelines
 
 ## 🎨 Design System
 
-### Visual Identity
-- **Theme**: Dark cyberpunk / investigative journalism
-- **Colors**: Deep black (#0a0a0f), neon red (#ff2a6d), cyan (#05d9e8)
-- **Effects**: Glitch animations, glowing borders, smooth transitions
-- **Typography**: Clean sans-serif, monospace for technical elements
+### Colors
+- **Primary Background**: `#0a0a0f` (deep black)
+- **Secondary**: `#12121a` (dark panels)
+- **Accent Red**: `#ff2a6d` (warnings, CTAs)
+- **Accent Cyan**: `#05d9e8` (highlights, links)
+- **Accent Purple**: `#9d4edd` (legal, formal)
 
-### User Experience
-- **Navigation**: Fixed header, smooth scroll, section highlighting
-- **Mobile**: Fully responsive, touch-friendly
-- **Accessibility**: Semantic HTML, keyboard navigable
-- **Performance**: No external dependencies, fast load times
+### Typography
+- **Primary**: System sans-serif stack
+- **Code**: Monospace for terminal effects
+- **Headings**: Uppercase, letter-spacing
 
----
+## 🛠️ Technical Architecture
 
-## ⚖️ Legal Strategy
+### Frontend
+- **HTML5** semantic structure
+- **CSS3** with custom properties
+- **JavaScript**: Vanilla (no frameworks)
+- **Images**: Optimized PNG/JPG
+- **Fonts**: System fonts (no external dependencies)
 
-### Documented Violations
-1. **Deceptive Trade Practices** (FTC Act §5)
-2. **Unfair Competition** (State laws)
-3. **Privacy Violations** (CCPA/GDPR)
-4. **Patent Interference** (35 U.S.C. §102)
+### Backend
+- **Database**: None (static site)
+- **Server**: Static file serving
+- **CDN**: Recommended for global distribution
+- **Hosting**: GitHub Pages, Netlify, or Vercel
 
-### Evidence Base
-- Perplexity chat screenshots (self-incrimination)
-- Privacy policy analysis
-- Class-action lawsuit filings (April 2026)
-- Expert legal analysis
+## 📊 Evidence Base
 
-### Remedies Sought
-- Regulatory investigation
-- Mandatory disclosure warnings
-- Training data deletion
-- Inventor restitution
-- Policy framework
+- Five Perplexity chat screenshots, April 2, 2026 (01:54:52, 02:03:01, 02:05:16, 02:05:24, 02:05:28) — Perplexity warned that sensitive chats may be retained, reviewed, or used to improve systems, and that sharing enough detail may create prior art.
+- Doe v. Perplexity AI, Inc., Meta Platforms, Inc., and Google, LLC, No. 3:26-cv-02803, filed March 31, 2026, N.D. California.
 
----
+## 📈 Deployment Requirements
 
-## 🚀 Deployment Options
+- **Hosting**: Any static host (GitHub Pages, Netlify, Vercel)
+- **Domain**: digitaldichotomy.com/aiid
+- **SSL**: Required (Let's Encrypt)
+- Forms use mailto links
+- **Size**: ~19-25 MB total (mostly logos and screencasts)
 
-### Recommended: Static Hosting
-1. **GitHub Pages** (free, version controlled)
-2. **Netlify** (free tier, form handling)
-3. **Vercel** (free tier, global CDN)
-4. **Cloudflare Pages** (free, excellent performance)
+All functionality is client-side; forms use mailto links.
 
-### Requirements
-- HTTPS (SSL certificate)
-- Form handling service (Formspree/Netlify)
-- Custom domain (digitaldichotomy.com/aiid)
+## 📄 Additional Pages
 
-### No Backend Required
-All functionality is client-side except forms, which use third-party services.
-
----
-
-## 📊 Impact Metrics (Target)
-
-### Awareness
-- 100,000+ visitors in first month
-- Press coverage in tech/legal media
-- Social media amplification
-
-### Action
-- 1,000+ complaints filed
-- 50+ attorneys join coalition
-- 10+ research collaborations
-
-### Policy
-- FTC investigation opened
-- State AG actions
-- USPTO guidance issued
-
----
+- **Timeline**: Chronology of key events in the investigation
+- **Testimonials**: No verified testimonials are published here.
+- **Glossary**: Definitions of key terms (extraction, prior art, CCPA, etc.)
+- **Sitemap**: Complete navigation overview
 
 ## 🔒 Security Features
 
@@ -172,8 +163,6 @@ All functionality is client-side except forms, which use third-party services.
 - Multiple backup locations
 - Cryptographic hashes available
 
----
-
 ## 📝 Content Strategy
 
 ### Tone
@@ -187,8 +176,6 @@ All functionality is client-side except forms, which use third-party services.
 2. Platforms admit the danger while inviting the behavior
 3. Patent rights are being destroyed by design
 4. Action is possible and necessary
-
----
 
 ## 🎓 Educational Value
 
@@ -212,8 +199,6 @@ All functionality is client-side except forms, which use third-party services.
 - Regulatory gaps
 - Recommended actions
 
----
-
 ## 🔄 Maintenance Plan
 
 ### Content Updates
@@ -228,8 +213,6 @@ All functionality is client-side except forms, which use third-party services.
 - Performance optimization
 - Accessibility improvements
 
----
-
 ## 📞 Contact Structure
 
 ### Public Inquiries
@@ -242,88 +225,3 @@ All functionality is client-side except forms, which use third-party services.
 - PGP keys available
 - Signal/Wire for sensitive discussions
 - ProtonMail for encrypted email
-
----
-
-## ✅ Pre-Launch Checklist
-
-### Content
-- [ ] All evidence double-sourced
-- [ ] Legal review of complaint language
-- [ ] Contact information verified
-- [ ] No placeholder content
-
-### Technical
-- [ ] Domain configured
-- [ ] SSL active
-- [ ] Forms tested
-- [ ] Mobile tested
-- [ ] 404 page created
-
-### Legal
-- [ ] Disclaimer reviewed
-- [ ] Privacy policy accurate
-- [ ] Terms of use complete
-- [ ] DMCA agent designated (if needed)
-
-### Launch
-- [ ] Social media accounts ready
-- [ ] Press list compiled
-- [ ] Announcement drafted
-- [ ] Backup systems tested
-
----
-
-## 🌐 Future Enhancements
-
-### Phase 2 (Post-Launch)
-- Multilingual versions (Spanish, Chinese, German)
-- Video documentary
-- Podcast series
-- Interactive data visualization
-
-### Phase 3 (Expansion)
-- Platform comparison tool
-- Real-time patent monitoring
-- AI safety certification program
-- Legislative advocacy toolkit
-
----
-
-## 📜 License & Attribution
-
-### Content
-**CC BY-NC-SA 4.0**  
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
-
-### Code
-**MIT License**  
-Free to use, modify, and distribute with attribution
-
-### Exceptions
-- Perplexity screenshots: Fair use for criticism/commentary
-- Government documents: Public domain
-- Third-party quotes: Used with permission or fair use
-
----
-
-## 🏆 Success Criteria
-
-This project succeeds if:
-1. **One inventor** is saved from disclosure
-2. **One complaint** leads to regulatory action
-3. **One policy** is changed to protect IP
-4. **One platform** is held accountable
-
-The extraction stops when we stop it.
-
----
-
-**Prepared by**: MT Tech Industries / Digital Dichotomy  
-**Date**: April 2, 2026  
-**Version**: 1.0.0  
-**Classification**: Public Evidence
-
----
-
-*This package is evidence. Preserve and distribute.*
