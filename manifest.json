@@ -29,7 +29,7 @@
     {
       "file": "press-kit.html",
       "title": "Press Kit | AIID",
-      "description": "Media resources and expert contacts",
+      "description": "Media resources",
       "priority": 3
     },
     {
@@ -53,7 +53,7 @@
     {
       "file": "testimonials.html",
       "title": "Affected Inventors | AIID",
-      "description": "Stories from victims of AI IP extraction",
+      "description": "No verified testimonials are published here.",
       "priority": 4
     },
     {
@@ -77,15 +77,7 @@
       "assets/css/Screenshot From 2026-04-02 02-03-01.png",
       "assets/css/Screenshot From 2026-04-02 02-05-16.png",
       "assets/css/Screenshot From 2026-04-02 02-05-24.png",
-      "assets/css/Screenshot From 2026-04-02 02-05-28.png",
-      "assets/css/Screenshot From 2026-04-01 23-42-20.png",
-      "assets/css/Screenshot From 2026-04-01 23-42-28.png",
-      "assets/css/Screenshot From 2026-04-01 23-42-40.png",
-      "assets/css/Screenshot From 2026-04-01 23-42-47.png",
-      "assets/css/Screenshot From 2026-04-01 23-44-09.png",
-      "assets/css/Screenshot From 2026-04-01 23-44-36.png",
-      "assets/css/Screenshot From 2026-04-01 23-44-53.png",
-      "assets/css/Screenshot From 2026-04-01 23-44-57.png"
+      "assets/css/Screenshot From 2026-04-02 02-05-28.png"
     ]
   },
   "dependencies": {
@@ -96,7 +88,7 @@
     "type": "static",
     "requirements": ["Web server with HTTPS"],
     "recommended_hosts": ["GitHub Pages", "Netlify", "Vercel", "Cloudflare Pages"],
-    "form_handling": "Formspree, Netlify Forms, or custom backend required"
+    "form_handling": "mailto links"
   },
   "seo": {
     "keywords": ["AI invention disclosure", "patent rights", "IP extraction", "Perplexity.ai", "intellectual property theft", "AI chat privacy"],
